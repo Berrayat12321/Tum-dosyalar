@@ -1,0 +1,3 @@
+﻿  Sayı Tahmin Oyunu.cpp
+C:\Users\berat\source\repos\Sayı Tahmin Oyunu\Sayı Tahmin Oyunu\Sayı Tahmin Oyunu.cpp(10,15): warning C4244: 'bağımsız değişken': 'time_t' - 'unsigned int' dönüşümü; veri kaybı olabilir
+  Sayı Tahmin Oyunu.vcxproj -> C:\Users\berat\source\repos\Sayı Tahmin Oyunu\x64\Debug\Sayı Tahmin Oyunu.exe

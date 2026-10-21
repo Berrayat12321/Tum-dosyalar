@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ATM Aracı/ATM Aracı.vcxproj" Id="f277c140-8cd5-4906-b182-ae8237f3cb9f" />
+</Solution>

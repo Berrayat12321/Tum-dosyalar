@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Sayı Tahmin Oyunu/Sayı Tahmin Oyunu.vcxproj" Id="4161e929-19c7-4706-a35c-a325029affeb" />
+</Solution>
