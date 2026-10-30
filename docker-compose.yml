@@ -7,6 +7,8 @@ services:
     environment:
       - PASSWORD=fstkcshp
     volumes:
-      - ./projelerim:/home/coder/project
-    command: ["--auth", "password", "/home/coder/project"]
+      - code_server_data:/home/coder
     restart: always
+
+volumes:
+  code_server_data:
