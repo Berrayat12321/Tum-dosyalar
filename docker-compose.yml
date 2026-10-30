@@ -1,7 +1,7 @@
 services:
   code-server:
     image: codercom/code-server:latest
-    container_name: cplusplus_web_ide
+    container_name: cpp_portal_yeni_sistem
     ports:
       - "7763:8080"
     environment:
@@ -9,5 +9,6 @@ services:
     volumes:
       - .:/home/coder/project
     user: "root"
-    command: ["--auth", "password", "/home/coder/project"]
+    entrypoint: >
+      sh -c "apt-get update && apt-get install -y build-essential && exec /usr/bin/entrypoint.sh --auth password /home/coder/project"
     restart: always
