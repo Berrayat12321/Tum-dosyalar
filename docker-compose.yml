@@ -16,7 +16,7 @@ services:
     volumes:
       - ./projelerim:/home/coder/project
     environment:
-      - GIT_SYNC_REPO=https://github.com
+      - GIT_SYNC_REPO=https://github.com/Berrayat12321/Tum-dosyalar/tree/main
       - GIT_SYNC_BRANCH=main
       - GIT_SYNC_WAIT=10
       - GIT_SYNC_ROOT=/home/coder/project
