@@ -8,4 +8,5 @@ services:
       - PASSWORD=fstkcshp
     volumes:
       - ./projelerim:/home/coder/project
+    command: ["--auth", "password", "/home/coder/project/Tum-dosyalar"]
     restart: always
