@@ -8,4 +8,7 @@ services:
       - PASSWORD=fstkcshp
     volumes:
       - .:/home/coder/project
+    user: "root"
+    command: >
+      sh -c "apt-get update && apt-get install -y build-essential && exec /usr/bin/entrypoint.sh --auth password /home/coder/project"
     restart: always
