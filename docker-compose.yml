@@ -7,18 +7,6 @@ services:
     environment:
       - PASSWORD=fstkcshp
     volumes:
-      - ./projelerim:/home/coder/project
-    restart: always
-
-  git-sync:
-    image: registry.k8s.io/git-sync/git-sync:v4.2.3
-    container_name: github_otomatik_esitleme
-    volumes:
-      - ./projelerim:/home/coder/project
-    environment:
-      - GIT_SYNC_REPO=https://github.com/Berrayat12321/Tum-dosyalar/tree/main
-      - GIT_SYNC_BRANCH=main
-      - GIT_SYNC_WAIT=10
-      - GIT_SYNC_ROOT=/home/coder/project
-      - GIT_SYNC_DEST=depom
+      - .:/home/coder
+    user: "root"
     restart: always
